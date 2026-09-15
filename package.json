@@ -1,0 +1,19 @@
+{
+  "name": "codeproof-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "dev": "npm run dev --workspaces"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "playwright": "^1.63.0",
+    "typescript": "^5.4.0",
+    "vitest": "^5.0.1"
+  }
+}

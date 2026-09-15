@@ -1,0 +1,17 @@
+{
+  "name": "codeproof-cli",
+  "version": "0.1.0",
+  "bin": {
+    "codeproof": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@codeproof/core": "0.1.0",
+    "@codeproof/engine": "0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
